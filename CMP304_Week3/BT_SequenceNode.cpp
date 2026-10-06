@@ -71,10 +71,6 @@ ActionStatus BT_SequenceNode::Act()
 		}
 		else
 		{
-
-
-			
-
 			// TASK TODO
 			//  - implement the logic for the Sequence Selector
 			//  - it should maintain the index of the running child node (runningOptionIndex)
@@ -96,9 +92,27 @@ ActionStatus BT_SequenceNode::Act()
 			//	ELSE IF Current Child Node = RUNNING
 			//		Status = RUNNING
 
+			ActionStatus actionResult = selectedOption->GetOptionAction()->PerformAction(*actorBlackboard);
 	
-
-
+			if(actionResult == ActionStatus::ACTION_SUCCESS)
+			{
+				if (runningOptionIndex == options.size() - 1)
+				{
+					SetStatus(ActionStatus::ACTION_SUCCESS);
+				}
+				else
+				{
+					runningOptionIndex++;
+				}
+			}
+			else if(actionResult == ActionStatus::ACTION_FAILURE)
+			{
+				SetStatus(ActionStatus::ACTION_FAILURE);
+			}
+			else if (actionResult == ActionStatus::ACTION_RUNNING)
+			{
+				SetStatus(ActionStatus::ACTION_RUNNING);
+			}
 		}
 	
 
