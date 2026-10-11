@@ -96,8 +96,32 @@ ActionStatus BT_SequenceNode::Act()
 			//	ELSE IF Current Child Node = RUNNING
 			//		Status = RUNNING
 
-	
+			//Run action
+			ActionStatus actionResult = selectedOption->GetOptionAction()->PerformAction(*actorBlackboard);
 
+			if (actionResult == ActionStatus::ACTION_SUCCESS)
+			{
+				//If it is the last option in the sequence, sequence node is set to success.
+				if (runningOptionIndex == options.size() - 1)
+				{
+					SetStatus(ActionStatus::ACTION_SUCCESS);
+				}
+				//else continue to the next option
+				else 
+				{
+					runningOptionIndex++;
+				}
+			}
+			//Else if action failed, mark the sequence as failed.
+			else if (actionResult == ActionStatus::ACTION_FAILURE)
+			{
+				SetStatus(ActionStatus::ACTION_FAILURE);
+			}
+			//Else if action runs over multiple frames, Set sequence as running.
+			else if (actionResult == ActionStatus::ACTION_RUNNING)
+			{
+				SetStatus(ActionStatus::ACTION_RUNNING);
+			}
 
 		}
 	

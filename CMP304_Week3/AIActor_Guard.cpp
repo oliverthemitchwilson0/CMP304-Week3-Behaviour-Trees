@@ -197,7 +197,6 @@ ActionStatus AIActor_Guard::Rest()
 		return ActionStatus::ACTION_SUCCESS;
 	}
 
-
 	guardState = GuardState::Healing;
 	EditBBValue<int>("IsHealing", 1);
 	return ActionStatus::ACTION_RUNNING;
