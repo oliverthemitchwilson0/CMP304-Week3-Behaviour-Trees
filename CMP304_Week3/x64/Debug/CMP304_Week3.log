@@ -1,0 +1,50 @@
+﻿  AIActor_Guard.cpp
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'AIActor_Guard.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  AIBrain_BT.cpp
+  AIConstructor_BT.cpp
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'AIConstructor_BT.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  BT_ConcurrentNode.cpp
+  BT_DecoratorNode.cpp
+  BT_FallbackNode.cpp
+  BT_RandomNode.cpp
+  BT_ReasonerNode.cpp
+  BT_SequenceNode.cpp
+  CMP304_Week3.cpp
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'CMP304_Week3.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  GameController.cpp
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'GameController.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(119,22): warning C4834: discarding return value of function with [[nodiscard]] attribute
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(358,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(423,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(427,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(431,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(435,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(445,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(452,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(460,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  CMP304_Week3.vcxproj -> D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\x64\Debug\CMP304_Week3.exe

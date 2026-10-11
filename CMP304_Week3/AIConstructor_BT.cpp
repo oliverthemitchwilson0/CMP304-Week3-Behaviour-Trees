@@ -124,9 +124,7 @@ void AIConstructor_BT::DefineOptions()
 	// -  TREE CONNECTIONS - 
 	// Add connections between nodes using AddOptionToTreeNode()
 	
-	AddOptionToTreeNode("Root", "OptionPatrolSeq");
-	AddOptionToTreeNode("OptionPatrolSeq", "OptionGetPatrolPath");
-	AddOptionToTreeNode("OptionPatrolSeq", "OptionPatrol");
+
 
 
 
