@@ -6,7 +6,6 @@ D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\Sys
       D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
       see declaration of 'sf::Exception'
   
-  AIBrain_BT.cpp
   AIConstructor_BT.cpp
 D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
   (compiling source file 'AIConstructor_BT.cpp')
@@ -15,12 +14,6 @@ D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\Sys
       D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
       see declaration of 'sf::Exception'
   
-  BT_ConcurrentNode.cpp
-  BT_DecoratorNode.cpp
-  BT_FallbackNode.cpp
-  BT_RandomNode.cpp
-  BT_ReasonerNode.cpp
-  BT_SequenceNode.cpp
   CMP304_Week3.cpp
 D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
   (compiling source file 'CMP304_Week3.cpp')
@@ -47,4 +40,5 @@ D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController
 D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(452,66): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\CMP304_Week3\GameController.cpp(460,70): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
+  LINK : D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\x64\Debug\CMP304_Week3.exe not found or not built by the last incremental link; performing full link
   CMP304_Week3.vcxproj -> D:\LocalWorkDir\2401502\CMP304-Week3-Behaviour-Trees\x64\Debug\CMP304_Week3.exe
